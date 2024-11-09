@@ -37,6 +37,7 @@ struct MealsView: View {
                                 .aspectRatio(contentMode: .fill)
                                 .frame(width: (proxy.size.width-16)/2, height: 124)
                                 .clipped()
+                                .clipShape(.rect(cornerRadius: 10))
                             
                         }
                     }
